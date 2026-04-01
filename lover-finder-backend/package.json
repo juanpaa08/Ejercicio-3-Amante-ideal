@@ -1,0 +1,22 @@
+{
+  "name": "lover-finder-backend",
+  "version": "1.0.0",
+  "description": "REST API for the Lover Finder application — register romantic match profiles and query by shared interest.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": ["express", "mongoose", "rest-api", "lover-finder"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
